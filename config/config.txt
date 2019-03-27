@@ -14,13 +14,13 @@ $include antag_rep.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME tgstation
+SERVERNAME Charon Station
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+STATIONNAME Charon Station 13
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 #HUB
@@ -47,7 +47,7 @@ ADMIN_LEGACY_SYSTEM
 #LOAD_LEGACY_RANKS_ONLY
 
 ## Comment this out to stop locally connected clients from being given the almost full access !localhost! admin rank
-ENABLE_LOCALHOST_RANK
+#ENABLE_LOCALHOST_RANK
 
 ## Uncomment this entry to have certain jobs require your account to be at least a certain number of days old to select. You can configure the exact age requirement for different jobs by editing
 ## the minimal_player_age variable in the files in folder /code/game/jobs/job/.. for the job you want to edit. Set minimal_player_age to 0 to disable age requirement for that job.
@@ -186,7 +186,7 @@ NORESPAWN
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY Yournamehere
+HOSTEDBY Recatek
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -230,13 +230,13 @@ CHECK_RANDOMIZER
 # FORUMURL http://tgstation13.org/phpBB/index.php
 
 ## Wiki address
-# WIKIURL http://www.tgstation13.org/wiki
+WIKIURL http://www.tgstation13.org/wiki
 
 ## Rules address
-# RULESURL http://www.tgstation13.org/wiki/Rules
+RULESURL http://www.tgstation13.org/wiki/Rules
 
 ## Github address
-# GITHUBURL https://www.github.com/tgstation/tgstation
+GITHUBURL https://www.github.com/tgstation/tgstation
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
