@@ -126,19 +126,19 @@
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "meat" = 1)
 	foodtype = GRAIN | VEGETABLES | FRUIT | DAIRY
 
-/obj/item/reagent_containers/food/snacks/pizza/sassysage
-	name = "sassysage pizza"
-	desc = "You can really smell the sassiness."
-	icon_state = "sassysagepizza"
-	slice_path = /obj/item/reagent_containers/food/snacks/pizzaslice/sassysage
+/obj/item/reagent_containers/food/snacks/pizza/sausage
+	name = "sausage pizza"
+	desc = "A pizza. A pizza with sausage."
+	icon_state = "sausagepizza"
+	slice_path = /obj/item/reagent_containers/food/snacks/pizzaslice/sausage
 	bonus_reagents = list("nutriment" = 6, "vitamin" = 6)
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "meat" = 1)
 	foodtype = GRAIN | VEGETABLES | DAIRY
 
-/obj/item/reagent_containers/food/snacks/pizzaslice/sassysage
-	name = "sassysage pizza slice"
-	desc = "Deliciously sassy."
-	icon_state = "sassysagepizzaslice"
+/obj/item/reagent_containers/food/snacks/pizzaslice/sausage
+	name = "sausage pizza slice"
+	desc = "Deliciously sausagey."
+	icon_state = "sausagepizzaslice"
 	filling_color = "#FF4500"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "meat" = 1)
 	foodtype = GRAIN | VEGETABLES | DAIRY

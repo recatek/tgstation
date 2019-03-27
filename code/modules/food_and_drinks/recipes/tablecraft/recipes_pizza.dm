@@ -79,15 +79,15 @@
 	result = /obj/item/reagent_containers/food/snacks/pizza/dank
 	subcategory = CAT_PIZZA
 
-/datum/crafting_recipe/food/sassysagepizza
-	name = "Sassysage pizza"
+/datum/crafting_recipe/food/sausagepizza
+	name = "sausage pizza"
 	reqs = list(
 		/obj/item/reagent_containers/food/snacks/pizzabread = 1,
 		/obj/item/reagent_containers/food/snacks/meatball = 3,
 		/obj/item/reagent_containers/food/snacks/cheesewedge = 1,
 		/obj/item/reagent_containers/food/snacks/grown/tomato = 1
 	)
-	result = /obj/item/reagent_containers/food/snacks/pizza/sassysage
+	result = /obj/item/reagent_containers/food/snacks/pizza/sausage
 	subcategory = CAT_PIZZA
 
 /datum/crafting_recipe/food/pineapplepizza
