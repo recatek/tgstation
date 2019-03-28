@@ -39,12 +39,12 @@ WALK_DELAY 4
 ## Entries completely override all subtypes. Later entries have precedence over earlier entries.
 ## This means if you put /mob 0 on the last entry, it will null out all changes, while if you put /mob as the first entry and
 ## /mob/living/carbon/human on the last entry, the last entry will override the first.
-##MULTIPLICATIVE_MOVESPEED /mob/living/carbon/human 0
-##MULTIPLICATIVE_MOVESPEED /mob/living/silicon/robot 0
-##MULTIPLICATIVE_MOVESPEED /mob/living/carbon/monkey 0
-##MULTIPLICATIVE_MOVESPEED /mob/living/carbon/alien 0
-##MULTIPLICATIVE_MOVESPEED /mob/living/simple_animal/slime 0
-MULTIPLICATIVE_MOVESPEED /mob/living/simple_animal 1
+MULTIPLICATIVE_MOVESPEED /mob/living/carbon/human 1.5
+MULTIPLICATIVE_MOVESPEED /mob/living/silicon/robot 1.5
+MULTIPLICATIVE_MOVESPEED /mob/living/carbon/monkey 1.5
+MULTIPLICATIVE_MOVESPEED /mob/living/carbon/alien 1.5
+MULTIPLICATIVE_MOVESPEED /mob/living/simple_animal/slime 1.5
+MULTIPLICATIVE_MOVESPEED /mob/living/simple_animal 1.5
 
 
 ## NAMES ###
@@ -257,7 +257,7 @@ MAX_TICKETS_PER_ROLL 100
 
 ## RANDOM EVENTS ###
 ## Comment this out to disable random events during the round.
-ALLOW_RANDOM_EVENTS
+#ALLOW_RANDOM_EVENTS
 
 ## Multiplier for earliest start time of dangerous events.
 ## Set to 0 to make dangerous events avaliable from round start.
